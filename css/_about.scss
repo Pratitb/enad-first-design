@@ -1,0 +1,189 @@
+#about {
+    min-height: 100vh;
+    .about-hero {
+        min-height: 50vh;
+        background-attachment: fixed;
+        background-image: url(../images/about-hero.jpg);
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        position: relative;
+        .about-hero-text {
+            max-width: 11vw;
+            background: rgba(255, 255, 255, 1);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            padding: 1rem 1rem 2rem 1rem;
+            border-radius: 1rem;
+            position: absolute;
+            left: 10%;
+            bottom: 15%;
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+    .principal-architect-container {
+        min-height: 100vh;
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .principal-architect-heading {
+            width: 40vw;
+            text-align: center;
+            font-size: 1.3rem;
+            color: rgba(0, 0, 0, 0.7);
+            border: 3px solid $base-color-green;
+            padding: 1rem;
+            .primary-services {
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                color: #000;
+            }
+        }
+        .principal-architect {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            .principal-architect-content {
+                width: 40vw;
+                h2 {
+                    font-size: 2rem;
+                }
+                .highlight-color {
+                    color: $base-color-green;
+                }
+                .accomplishments{
+                    list-style: none;
+                }
+                .accomplishments li::before {
+                    content: "🌟";
+                    font-size: 1.7rem;
+                    margin-right: 0.5rem;
+                }
+            }
+            .principal-architect-image{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                img {
+                    
+                    border-radius: 1rem;
+                    box-shadow: rgba(0, 105, 93, 0.4) -5px 5px, rgba(0, 105, 93, 0.3) -10px 10px, rgba(0, 105, 93, 0.2) -15px 15px, rgba(0, 105, 93, 0.1) -20px 20px, rgba(0, 105, 93, 0.05) -25px 25px;
+                    
+                }
+            }
+        }
+    }
+    .our-company {
+        min-height: 50vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/our-company-02.jpg);
+        background-repeat: no-repeat;
+        background-position: 0% 80%;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .growth-cards {
+            display: flex;
+            justify-content: space-evenly;
+            width: 70vw;
+            .aim {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 15vw;
+                background: rgba(255, 255, 255, 0.3);
+                transform: rotate(30deg);
+                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+                padding: 2rem;
+                border-radius: 1.5rem;
+                transition: 0.5s;
+                &:hover {
+                    transform: rotate(0deg);
+                    background: rgba(255, 255, 255, 1);
+                }
+                h4 {
+                    font-size: 1.5rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
+#team {
+    min-height: 100vh;
+    padding: 10rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .team-about{
+        display: flex;
+        justify-content: space-between;
+        order: -1;
+        .team-creative{
+            margin-bottom: 5rem;
+            img{
+                max-width: 70%;
+                
+            }
+        }
+        .team-information {
+            max-width: 30vw;
+            list-style: none;
+            li::before {
+                content: "💡"; 
+                
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+    h2 {
+        width: 700px;
+        position: relative;
+        &::after {
+            position: absolute;
+            left: 50%;
+            bottom: -40%;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background-color: teal;
+        }
+    }
+    .team-card-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 50vw;
+        max-width: 100vw;
+        .team-card {
+            flex-basis: 30%;
+            margin-bottom: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .member-image {
+                margin-bottom: 2.5rem;
+                border-radius: 1rem;
+                box-shadow: rgba(0, 105, 93, 0.4) -5px 5px, rgba(0, 105, 93, 0.3) -10px 10px, rgba(0, 105, 93, 0.2) -15px 15px, rgba(0, 105, 93, 0.1) -20px 20px, rgba(0, 105, 93, 0.05) -25px 25px;
+            }
+            .member-detail {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .team-creative{
+        display: flex;
+        justify-content: center;
+        img{
+            max-width: 100%;
+        }
+    }
+}

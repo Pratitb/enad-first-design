@@ -1,0 +1,288 @@
+@media(min-width:320px) and (max-width:390px) {
+    .navigation {
+        display: none;
+    }
+    #what-we-do {
+        .headings {
+            .sub-heading {
+                font-size: 1.5rem;
+            }
+        }
+        .services {
+            margin: 0;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-width: 80vw;
+        }
+    }
+    #why-choose-us {
+        flex-direction: column;
+        .headings {
+            max-width: 100vw;
+        }
+        .principles {
+            max-width: 100vw;
+        }
+    }
+}
+
+@media(min-width:1000px) and (max-width:1400px) {
+    .owl-carousel .owl-item .slide .slider-card {
+        bottom: 10%;
+    }
+    #what-we-do {
+        .headings {
+            .sub-heading {
+                font-size: 1.8rem;
+            }
+        }
+        .services {
+            width: 85vw;
+            .card {
+                min-height: 30vh;
+                i {
+                    font-size: 2rem!important;
+                }
+                .card-title {
+                    font-size: 1.1rem;
+                    margin-bottom: 0.5rem;
+                }
+                .card-description {
+                    margin-bottom: 1rem;
+                }
+            }
+            .card {
+                min-height: 30vh;
+            }
+        }
+    }
+    #why-choose-us {
+        .headings {
+            .heading {
+                font-size: 0.9rem;
+            }
+            .sub-heading {
+                font-size: 1.4rem;
+            }
+        }
+        .principles {
+            max-width: 60vw;
+        }
+    }
+    #counters {
+        .counter {
+            padding: 2rem;
+            max-width: 55vw;
+        }
+        .counter-block {
+            i {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            .counter-number {
+                font-size: 1.3rem;
+            }
+            .counter-label {
+                font-size: 1rem;
+            }
+        }
+        .building-creative {
+            img {
+                max-width: 90%;
+            }
+        }
+    }
+    #about {
+        .about-hero {
+            .about-hero-text {
+                padding: 1rem 1rem 2rem 1rem;
+                max-width: 15vw;
+            }
+        }
+        .principal-architect-container{
+            padding: 10rem 2rem;
+            .principal-architect-heading{
+                width: 60vw;
+            }
+            .principal-architect{
+                .principal-architect-content{
+                    width: 50vw;
+                }
+            }
+            .principal-architect-image{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+        .our-company {
+            min-height: 60vh;
+            .growth-cards {
+                width: 100vw;
+                .aim {
+                    width: 23vw;
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+    #team {
+        padding: 10rem 4rem;
+        flex-direction: column;
+        .team-about {
+            display: flex;
+            .team-creative {
+                img {
+                    max-width: 70%;
+                    margin-bottom: 5rem;
+                }
+            }
+            .team-information {
+                max-width: 40vw;
+                list-style: none;
+                li::before {
+                    content: "💡"; 
+                    
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+        .team-card-container {
+            order: 1;
+            width: 70vw;
+        }
+    }
+}
+
+@media(min-width:1401px) and (max-width:1500px) {
+    .owl-carousel .owl-item .slide .slider-card {
+        bottom: 10%;
+    }
+    #what-we-do {
+        .headings {
+            .sub-heading {
+                font-size: 1.8rem;
+            }
+        }
+        .services {
+            width: 80vw;
+            .card {
+                min-height: 30vh;
+                
+                .card-title {
+                    
+                    margin-bottom: 0.5rem;
+                }
+                .card-description {
+                    margin-bottom: 1rem;
+                }
+            }
+            
+        }
+    }
+    #why-choose-us {
+        .headings {
+            .heading {
+                font-size: 0.9rem;
+            }
+            .sub-heading {
+                font-size: 1.4rem;
+            }
+        }
+        .principles {
+            max-width: 60vw;
+        }
+    }
+    #counters {
+        .counter {
+            padding: 2rem;
+            max-width: 55vw;
+        }
+        .counter-block {
+            i {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            .counter-number {
+                font-size: 1.3rem;
+            }
+            .counter-label {
+                font-size: 1rem;
+            }
+        }
+        .building-creative {
+            img {
+                max-width: 90%;
+            }
+        }
+    }
+    #about {
+        .about-hero {
+            .about-hero-text {
+                padding: 1rem 1rem 2rem 1rem;
+                max-width: 15vw;
+            }
+        }
+        .principal-architect-container{
+            padding: 10rem 2rem;
+            .principal-architect-heading{
+                width: 60vw;
+            }
+            .principal-architect{
+                .principal-architect-content{
+                    width: 50vw;
+                }
+            }
+            .principal-architect-image{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+        .our-company {
+            min-height: 50vh;
+            .growth-cards {
+                width: 100vw;
+                .aim {
+                    width: 23vw;
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+    #team {
+        padding: 10rem 4rem;
+        flex-direction: column;
+        .team-about {
+            display: flex;
+            margin-bottom: 5rem;
+            .team-creative {
+                
+                img {
+                    max-width: 70%;
+                    
+                }
+            }
+            .team-information {
+                max-width: 40vw;
+                list-style: none;
+                li::before {
+                    content: "💡"; 
+                    
+                    font-size: 1.5rem;
+
+                }
+            }
+        }
+        .team-card-container {
+            order: 1;
+            width: 70vw;
+            .team-card{
+                .member-image{
+                    margin-bottom: 2.5rem;
+                }
+            }
+        }
+    }
+}
